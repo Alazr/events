@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include event_app *.css
+recursive-include event_app *.csv
+recursive-include event_app *.html
+recursive-include event_app *.ico
+recursive-include event_app *.js
+recursive-include event_app *.json
+recursive-include event_app *.md
+recursive-include event_app *.png
+recursive-include event_app *.py
+recursive-include event_app *.svg
+recursive-include event_app *.txt
+recursive-exclude event_app *.pyc
