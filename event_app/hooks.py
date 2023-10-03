@@ -215,3 +215,12 @@ doctype_list_js = {"Contact" : "client_script/contact_list.js"}
 # auth_hooks = [
 #	"event_app.auth.validate"
 # ]
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "or_filters": [
+            ["Custom Field", "dt", "=", "Contact"],
+            
+        ],
+    },
+]
