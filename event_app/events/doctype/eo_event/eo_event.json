@@ -1,0 +1,133 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "creation": "2023-10-09 16:51:41.918673",
+  "default_view": "List",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "name1",
+    "eventtype",
+    "venue",
+    "starttime",
+    "speakerid",
+    "topicname",
+    "topicid",
+    "theme_name",
+    "column_break_mbzx",
+    "_id",
+    "total_slot",
+    "eventdate",
+    "endtime",
+    "speakername",
+    "speakertype",
+    "themeid"
+  ],
+  "fields": [
+    {
+      "fieldname": "venue",
+      "fieldtype": "Data",
+      "label": "Venue"
+    },
+    {
+      "fieldname": "themeName",
+      "fieldtype": "Data",
+      "label": "Theme Name"
+    },
+    {
+      "fieldname": "column_break_mbzx",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "totalslot",
+      "fieldtype": "Int",
+      "label": "Total Slot"
+    },
+    {
+      "fieldname": "_id",
+      "fieldtype": "Data",
+      "label": "_id"
+    },
+    {
+      "fieldname": "eventtype",
+      "fieldtype": "Link",
+      "label": "Event Type",
+      "options": "Event Type"
+    },
+    {
+      "fieldname": "eventDate",
+      "fieldtype": "Date",
+      "label": "Event Date"
+    },
+    {
+      "fieldname": "startTime",
+      "fieldtype": "Datetime",
+      "label": "Start Time"
+    },
+    {
+      "fieldname": "endTime",
+      "fieldtype": "Datetime",
+      "label": "End Time"
+    },
+    {
+      "fieldname": "speakerId",
+      "fieldtype": "Data",
+      "label": "Speaker Id"
+    },
+    {
+      "fieldname": "speakerName",
+      "fieldtype": "Data",
+      "label": "Speaker Name"
+    },
+    {
+      "fieldname": "speakertype",
+      "fieldtype": "Data",
+      "label": "Speaker Type"
+    },
+    {
+      "fieldname": "themeId",
+      "fieldtype": "Data",
+      "label": "Theme Id"
+    },
+    {
+      "fieldname": "topicName",
+      "fieldtype": "Data",
+      "label": "Topic Name"
+    },
+    {
+      "fieldname": "topicId",
+      "fieldtype": "Data",
+      "label": "Topic Id"
+    },
+    {
+      "fieldname": "name",
+      "fieldtype": "Data",
+      "label": "Name"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2023-10-09 17:18:41.441110",
+  "modified_by": "Administrator",
+  "module": "Events",
+  "name": "Eo-Event",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
+}
