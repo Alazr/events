@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-18 15:36:01.057290",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "_id",
+  "eventdate",
+  "speakername",
+  "themename",
+  "topicname"
+ ],
+ "fields": [
+  {
+   "fieldname": "_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "_id"
+  },
+  {
+   "fieldname": "eventdate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Event Date"
+  },
+  {
+   "fieldname": "speakername",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Speaker Name"
+  },
+  {
+   "fieldname": "themename",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Theme Name"
+  },
+  {
+   "fieldname": "topicname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Topic Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-18 20:22:28.542263",
+ "modified_by": "Administrator",
+ "module": "Events",
+ "name": "key Note Events",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

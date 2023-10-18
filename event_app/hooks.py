@@ -130,21 +130,11 @@ doctype_list_js = {"Contact" : "client_script/contact_list.js"}
 # ---------------
 
 # scheduler_events = {
-#	"all": [
-#		"event_app.tasks.all"
-#	],
-#	"daily": [
-#		"event_app.tasks.daily"
-#	],
-#	"hourly": [
-#		"event_app.tasks.hourly"
-#	],
-#	"weekly": [
-#		"event_app.tasks.weekly"
-#	],
-#	"monthly": [
-#		"event_app.tasks.monthly"
-#	],
+# 	"cron": {
+#         "*/15 * * * * *": [
+#             "event_app.events.contact.update_contact_events"
+#         ]
+#     }
 # }
 
 # Testing

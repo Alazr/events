@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestEoEvent(FrappeTestCase):
+class TestEOEvent(FrappeTestCase):
 	pass

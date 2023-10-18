@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class EOEvent(Document):
+class DeepDiveEvent(Document):
 	pass
